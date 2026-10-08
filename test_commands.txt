@@ -1,0 +1,17 @@
+# Unix-Like Shell Test Commands
+
+pwd
+ls
+ls -l
+cd ..
+pwd
+cd -
+echo "hello"
+ls | grep ".c"
+ls | grep ".c" | wc -l
+cat input.txt
+sort < input.txt
+ls -l > listing.txt
+echo "another line" >> listing.txt
+cat listing.txt
+exit
